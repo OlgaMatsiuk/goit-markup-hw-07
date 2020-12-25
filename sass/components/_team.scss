@@ -1,0 +1,82 @@
+.section-team{
+    background-color: var(--bgc-additional) ;
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.section-team .team{
+    display: flex;
+}
+.team img{
+    display: block;
+}
+.team .item{
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    background: var(--bgc-main);
+    width: 270px;
+
+}
+
+.team .item + .item{
+    margin-left: 30px;
+}
+.team-worker{
+    padding: 30px 32px;
+    text-align: center;
+}
+.team .team-name{
+    color: var(--secondary-color);
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+letter-spacing: 0.03em;
+margin-bottom: 10px;
+}
+.team .team-prof{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.18;
+letter-spacing: 0.03em;
+margin-bottom: 16px;
+}
+
+.team .team-name{
+    color: var(--secondary-color);
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+letter-spacing: 0.03em;
+margin-bottom: 10px;
+}
+.team .team-prof{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+letter-spacing: 0.03em;
+}
+/* задаем цвет иконок в секции наша команда и постоянные клиенты */
+.team-worker .network .icon{
+    fill:currentColor;
+
+} .clients-link .icon{
+    fill:currentColor;
+}
+.network-link .link{
+    display: flex;
+    width: 44px;
+    height: 44px;
+   justify-content: center;
+    align-items: center; 
+    color: #AFB1B8;
+    border-radius: 50%;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.team-worker .network-link .link:hover,
+.team-worker .network-link .link:focus{
+    color: var(--additional-color);
+    background: var(--accent-color);
+
+}

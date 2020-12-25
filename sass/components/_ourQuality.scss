@@ -1,0 +1,48 @@
+/*наши качества*/
+.our-quality{
+    padding-top: 94px;
+}
+.visually-hidder{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.quality .quality-title{
+color: var(--secondary-color);
+    font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+margin-bottom: 10px;
+}
+.quality .quality-text{
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+}
+.quality{
+    display: flex;
+}
+.quality-item{
+    width: 270px;
+}
+.quality-item .icon{
+    /* border: 1px solid red; */
+    height: 120px;
+    border-radius: 4px;
+    background: var(--bgc-additional);
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quality .quality-item + .quality-item{
+    margin-left: 30px;
+}
