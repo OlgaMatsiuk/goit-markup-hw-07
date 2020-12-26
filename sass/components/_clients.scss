@@ -27,8 +27,8 @@
 
 .clients-link .link:hover,
 .clients-link .link:focus{
-    border: 1px solid var(--accent-color);
-    color: var(--accent-color);
+    border: 1px solid $accent-color;
+    color: $accent-color;
     border-radius: 4px; 
 
 }

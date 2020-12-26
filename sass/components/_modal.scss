@@ -165,7 +165,7 @@ border-color: $accent-color;
 }
 .check-input:checked + .modal-check::before{
 background-color: $accent-color;
-background-image: url(.../images/icon-check18);
+background-image: url(/images/icon-check18.svg);
 background-size: contain;   
 background-origin: border-box; 
 border-color: $accent-color;
