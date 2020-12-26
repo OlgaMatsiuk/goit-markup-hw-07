@@ -21,3 +21,18 @@ h1,h2,h3,p{
     max-width: 100%;
     height: auto;
 }
+/* Стили портфолио*/ 
+.portfolio h2{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--secondary-color);
+}
+    .portfolio p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--main-color);
+}

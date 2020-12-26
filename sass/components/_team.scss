@@ -1,5 +1,5 @@
 .section-team{
-    background-color: var(--bgc-additional) ;
+    background-color: $bgc-additional;
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -12,7 +12,7 @@
 .team .item{
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
-    background: var(--bgc-main);
+    background: $bgc-main;
     width: 270px;
 
 }
@@ -25,7 +25,7 @@
     text-align: center;
 }
 .team .team-name{
-    color: var(--secondary-color);
+    color: $secondary-color;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.18;
@@ -41,7 +41,7 @@ margin-bottom: 16px;
 }
 
 .team .team-name{
-    color: var(--secondary-color);
+    color: $secondary-color;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.18;
@@ -76,7 +76,7 @@ letter-spacing: 0.03em;
 
 .team-worker .network-link .link:hover,
 .team-worker .network-link .link:focus{
-    color: var(--additional-color);
-    background: var(--accent-color);
+    color: $additional-color;
+    background: $accent-color;
 
 }

@@ -14,7 +14,7 @@
 }
 
 .quality .quality-title{
-color: var(--secondary-color);
+color: $secondary-color;
     font-weight: 700;
 font-size: 14px;
 line-height: 1.14;
@@ -37,7 +37,7 @@ line-height: 1.71;
     /* border: 1px solid red; */
     height: 120px;
     border-radius: 4px;
-    background: var(--bgc-additional);
+    background: $bgc-additional;
     margin-bottom: 30px;
     display: flex;
     justify-content: center;
