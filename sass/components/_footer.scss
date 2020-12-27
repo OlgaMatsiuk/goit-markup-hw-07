@@ -6,73 +6,75 @@
     letter-spacing: 0.03em;
     padding-top: 60px;
     padding-bottom: 60px;
-}
-    .footer .address{
+
+    & .address{
         color: $additional-color;
         font-style: normal;
     }
     
-    .footer-address{
+    &-address{
         margin-top: 20px;
     }
-    .address-tel{
-        display: flex;
-        margin-top: 9px;
-    }
-    .footer .address-tel{
+}    
+.address-tel{
+    display: flex;
+    margin-top: 9px;
+    
+    .footer &{
         color: $contacts-color;
         font-style: normal;
     }
-    .address-container{
-        margin-right: 70px;
+}
+.address-container{
+    margin-right: 70px;
+}
+.network{
+    display: flex;
+}
+.social-networks{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $additional-color;
+    margin-bottom: 20px;
     }
-    .network{
-        display: flex;
-    }
-    .social-networks{
-        font-size: 14px;
-        font-weight: 700;
-        line-height: 1.14;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: $additional-color;
-        margin-bottom: 20px;
-    }
-    .hero-button.form-btn{
-        position: relative;
-        padding: 10px 29px;
-        text-align: left;
-    }
+.hero-button.form-btn{
+    padding: 10px 29px;
+    text-align: left;
+    position: relative;
+}
     
-    .form .icon{
+.form .icon{
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     right: 28px;
-    }
-    .social .link{
-        background: #44454E;
-        transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.social .link{
+    background: #44454E;
+    transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
-    }
-    .network .network-link+.network-link{
-        margin-left: 10px;
-    }
-    .social .network .link{
+}
+.network .network-link+.network-link{
+    margin-left: 10px;
+}
+.social .network .link{
     border-radius: 50%;
-    }
+}
     
-    .footer .container{
-        display: flex;
-        align-items: baseline;
-    }
-    .social .network-link .icon{
-        fill: $additional-color;
-    }
-    .footer .network-link .link:hover,
-    .footer .network-link .link:focus{
-        background: $accent-color;
-    }
+.footer .container{
+    display: flex;
+    align-items: baseline;
+}
+.social .network-link .icon{
+    fill: $additional-color;
+}
+.footer .network-link .link:hover,
+.footer .network-link .link:focus{
+    background: $accent-color;
+}
     
     /*стилизация формы*/
     .form-input{

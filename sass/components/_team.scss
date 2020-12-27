@@ -2,6 +2,7 @@
     background-color: $bgc-additional;
     padding-top: 94px;
     padding-bottom: 94px;
+    
 }
 .section-team .team{
     display: flex;
@@ -40,43 +41,26 @@ letter-spacing: 0.03em;
 margin-bottom: 16px;
 }
 
-.team .team-name{
-    color: $secondary-color;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.18;
-text-align: center;
-letter-spacing: 0.03em;
-margin-bottom: 10px;
-}
-.team .team-prof{
-font-weight: 400;
-font-size: 16px;
-line-height: 1.18;
-text-align: center;
-letter-spacing: 0.03em;
-}
-/* задаем цвет иконок в секции наша команда и постоянные клиенты */
-.team-worker .network .icon{
-    fill:currentColor;
 
-} .clients-link .icon{
+/* задаем цвет иконок в секции наша команда и постоянные клиенты */
+.team-worker .network .icon, .clients-link .icon{
     fill:currentColor;
-}
+} 
+
 .network-link .link{
     display: flex;
     width: 44px;
     height: 44px;
-   justify-content: center;
+    justify-content: center;
     align-items: center; 
     color: #AFB1B8;
     border-radius: 50%;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus{
+        color: $additional-color;
+        background: $accent-color;
+    }
 }
 
-.team-worker .network-link .link:hover,
-.team-worker .network-link .link:focus{
-    color: $additional-color;
-    background: $accent-color;
-
-}
