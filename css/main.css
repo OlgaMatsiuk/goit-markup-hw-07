@@ -161,7 +161,7 @@
 .hero-cont {
   background: #C4C4C4;
   width: 100%;
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/fond.jpg);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/fond.jpg);
   background-repeat: no-repeat;
   background-position: center;
   height: 600px;
@@ -371,7 +371,7 @@
 
 .check-input:checked + .modal-check::before {
   background-color: #2196F3;
-  background-image: url(../../images/icon-check18.svg);
+  background-image: url(../images/icon-check18.svg);
   background-size: contain;
   background-origin: border-box;
   border-color: #2196F3;
