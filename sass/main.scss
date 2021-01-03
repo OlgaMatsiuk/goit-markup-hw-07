@@ -1,6 +1,7 @@
-@import './utils/modern-normalize';
 @import './utils/variables';
-@import './utils/fonts';
+@import './general/fonts';
+@import './general/common';
+@import './general/modern-normalize';
 @import './components/header';
 @import './components/logo';
 @import './components/hero';
@@ -9,8 +10,6 @@
 @import './components/work';
 @import './components/team';
 @import './components/clients';
-@import './general/common';
-@import './general/container';
 @import './components/portProjects';
 @import './components/portExamples';
 @import './components/footer';
